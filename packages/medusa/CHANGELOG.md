@@ -1,5 +1,70 @@
 # Change Log
 
+## 3.0.0
+
+### Patch Changes
+
+- [#15683](https://github.com/medusajs/medusa/pull/15683) [`de58ec503bcd82aae3fe576f9a404c36e2525f4c`](https://github.com/medusajs/medusa/commit/de58ec503bcd82aae3fe576f9a404c36e2525f4c) Thanks [@Floofy6](https://github.com/Floofy6)! - chore: add package bugs metadata
+
+- [#15085](https://github.com/medusajs/medusa/pull/15085) [`b50a9dbaf3eeb29753fa28afbc1b529c44ec5a51`](https://github.com/medusajs/medusa/commit/b50a9dbaf3eeb29753fa28afbc1b529c44ec5a51) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - feat(payment,payment-stripe,core-flows,medusa,dashboard,js-sdk,utils,types): introduce async payment methods support
+
+- [#15721](https://github.com/medusajs/medusa/pull/15721) [`7686adc8637b41879c4551ca422829ad2d63d6a9`](https://github.com/medusajs/medusa/commit/7686adc8637b41879c4551ca422829ad2d63d6a9) Thanks [@leobenzol](https://github.com/leobenzol)! - feat: drag&drop LayoutComposer, settings db persistence
+
+- Updated dependencies [[`cb454a097b6792a06564a7b601489e2cd651e00e`](https://github.com/medusajs/medusa/commit/cb454a097b6792a06564a7b601489e2cd651e00e), [`385819ba1469b4310832a7737060eb23226f135d`](https://github.com/medusajs/medusa/commit/385819ba1469b4310832a7737060eb23226f135d), [`a04f1e06fcb99373becfe705c09a85910b73cb4c`](https://github.com/medusajs/medusa/commit/a04f1e06fcb99373becfe705c09a85910b73cb4c), [`448498c1450bd75b19d00a515544db61dcdc71e1`](https://github.com/medusajs/medusa/commit/448498c1450bd75b19d00a515544db61dcdc71e1), [`de58ec503bcd82aae3fe576f9a404c36e2525f4c`](https://github.com/medusajs/medusa/commit/de58ec503bcd82aae3fe576f9a404c36e2525f4c), [`b50a9dbaf3eeb29753fa28afbc1b529c44ec5a51`](https://github.com/medusajs/medusa/commit/b50a9dbaf3eeb29753fa28afbc1b529c44ec5a51), [`5d7d02a3813586ff0b381944d804a9065a37b996`](undefined), [`5296f51121d4796b1757b65852c48e97e0e1e197`](https://github.com/medusajs/medusa/commit/5296f51121d4796b1757b65852c48e97e0e1e197), [`7686adc8637b41879c4551ca422829ad2d63d6a9`](https://github.com/medusajs/medusa/commit/7686adc8637b41879c4551ca422829ad2d63d6a9)]:
+  - @medusajs/event-bus-redis@3.0.0
+  - @medusajs/core-flows@3.0.0
+  - @medusajs/order@3.0.0
+  - @medusajs/admin-bundler@3.0.0
+  - @medusajs/analytics@3.0.0
+  - @medusajs/analytics-local@3.0.0
+  - @medusajs/analytics-posthog@3.0.0
+  - @medusajs/api-key@3.0.0
+  - @medusajs/auth@3.0.0
+  - @medusajs/auth-emailpass@3.0.0
+  - @medusajs/auth-github@3.0.0
+  - @medusajs/auth-google@3.0.0
+  - @medusajs/cache-inmemory@3.0.0
+  - @medusajs/cache-redis@3.0.0
+  - @medusajs/caching@3.0.0
+  - @medusajs/caching-redis@3.0.0
+  - @medusajs/cart@3.0.0
+  - @medusajs/currency@3.0.0
+  - @medusajs/customer@3.0.0
+  - @medusajs/draft-order@3.0.0
+  - @medusajs/event-bus-local@3.0.0
+  - @medusajs/file@3.0.0
+  - @medusajs/file-local@3.0.0
+  - @medusajs/file-s3@3.0.0
+  - @medusajs/framework@3.0.0
+  - @medusajs/fulfillment@3.0.0
+  - @medusajs/fulfillment-manual@3.0.0
+  - @medusajs/index@3.0.0
+  - @medusajs/inventory@3.0.0
+  - @medusajs/link-modules@3.0.0
+  - @medusajs/locking@3.0.0
+  - @medusajs/locking-postgres@3.0.0
+  - @medusajs/locking-redis@3.0.0
+  - @medusajs/notification@3.0.0
+  - @medusajs/notification-local@3.0.0
+  - @medusajs/notification-sendgrid@3.0.0
+  - @medusajs/payment@3.0.0
+  - @medusajs/payment-stripe@3.0.0
+  - @medusajs/pricing@3.0.0
+  - @medusajs/product@3.0.0
+  - @medusajs/promotion@3.0.0
+  - @medusajs/rbac@3.0.0
+  - @medusajs/region@3.0.0
+  - @medusajs/sales-channel@3.0.0
+  - @medusajs/settings@3.0.0
+  - @medusajs/stock-location@3.0.0
+  - @medusajs/store@3.0.0
+  - @medusajs/tax@3.0.0
+  - @medusajs/telemetry@3.0.0
+  - @medusajs/translation@3.0.0
+  - @medusajs/user@3.0.0
+  - @medusajs/workflow-engine-inmemory@3.0.0
+  - @medusajs/workflow-engine-redis@3.0.0
+
 ## 2.17.1
 
 ### Patch Changes
